@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+    text-align: center;
+
+}
+.profile{
+    padding-top: 100px;
+    border-radius: 50%;
+}
+#welcome{
+position: absolute;
+bottom: 0;
+background: linear-gradient(rgb(142, 196, 231), rgb(219, 170, 178));
+display: table;
+width: 100%;
+height: 100%;
+}
+.line{
+    height: 5px;
+    background-color: black;
+    width: 65px;
+    margin-left: 650px;
+}
+.menu{
+    position: absolute;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+.links{
+    display: inline;
+   padding-left:33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links: hover{
+    font-size:25px;
+    text-decoration: underline;
+}
+#name{
+    font-family: 'Smooch', cursive;
+}
+.div{
+    display: table-cell;
+    vertical-align: middle;
+}
+#bio{
+    padding: 50px;
+    font-size: 25px;
+}
+#writings{
+    text-decoration: underline !important;
+    color: rgb(182, 100, 207) !important
+}
+#contact{
+    background: lightgreen
+}
+.contacts h3{
+display: inline;
+}
